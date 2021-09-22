@@ -1,0 +1,176 @@
+body {background-color: #1172d9}
+
+    .green-white {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: limegreen;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  transition:0.3s;
+  border-radius:25px;
+}
+h4,h1,p{
+color: white
+}
+    .green-white:hover {
+  background-color: green;
+  font-size: 17px;
+}
+    .logo {
+  width: 256px;
+  height: 128px;
+  background: url(Logo.png);
+  background-repeat:no-repeat;
+  display: inline-block;
+}
+    .logo:hover {
+  background: url(LogoInvert.png)
+  
+}
+    .blue-white {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #266350;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  transition:0.3s;
+  border-radius:25px;
+  
+}
+    .blue-white:hover {
+  background-color: #173d31;
+  font-size: 17px;
+
+}
+
+    .red-white {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ff3300;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  border-radius:25px;
+}
+    .dropdown-base {
+  display: inline;
+  border: none;
+  background-color: #ff3300;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "verdana";
+  border-radius:25px;
+  transition:0.3s;
+}
+    .dropdown {
+  border: none;
+  background-color: #ff3300;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "verdana";
+  display:none;
+  border-radius:25px;
+  transition:0.3s;
+}
+    .dropdown:hover {
+  display: inline;  
+  border-radius:25px;
+  transition:0.3s;
+}
+    .red-white:hover {
+  background-color: #801a00;
+  font-size: 17px;
+}
+
+    .pink-white {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ff33cc;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  transition: 0.3s;
+  border-radius:25px;
+
+}
+    .pink-white:hover {
+  background-color: #cc0099;
+  font-size: 17px;
+}
+
+   .brown-white {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #994f00;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  border-radius:25px;
+
+}
+   .brown-white:hover {
+  background-color: #663500;
+  font-size: 17px;
+}
+
+    .title {
+  font-family: "verdana";
+  color: #FF9900
+}
+
+a:link {
+  text-decoration: none;
+}
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: #ff3300;
+  color: #FFFFFF;
+  font-family: "verdana"
+}
+
+.dropdown {
+  display: inline-block;
+  width:100%
+}
+
+.dropdown-content {
+  display: none;  
+  width: 100%;  
+  border-radius:25px;
+  transition:0.3s;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {width:100%;}
+
+
